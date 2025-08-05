@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import posts from '@/data/posts.json';
+import posts from '../data/posts.json'; // jika `index.tsx` masih di `src/pages`
 
 type Post = {
   slug: string;
